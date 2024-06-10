@@ -16,22 +16,22 @@ dependencies:
 
 
   #Animation
-  lottie: ^2.6.0
+  lottie: ^3.1.2
 
   flutter_slidable: ^3.0.0 
 
   open_settings: ^2.0.2
   local_auth: ^2.1.6
-  maps_toolkit: ^2.0.1
+  maps_toolkit: ^3.0.0
 
   #Permissions
-  permission_handler: ^10.4.3
+  permission_handler: ^11.3.1
   device_uuid: ^0.0.4
 
-  uuid: ^3.0.7
+  uuid: ^4.4.0
 
   infinite_scroll_pagination: ^4.0.0
-  webview_flutter: ^3.0.4
+  webview_flutter: ^4.8.0
 
   #Permission
   disable_battery_optimization: ^1.1.1
@@ -41,24 +41,24 @@ dependencies:
   flutter_background_service: ^5.0.1
 
   #Device
-  device_info_plus: ^9.0.3
-  flutter_activity_recognition: ^2.0.0
-  battery_plus: ^4.0.2
-  connectivity_plus: ^4.0.2
+  device_info_plus: ^10.1.0
+  flutter_activity_recognition: ^3.1.0
+  battery_plus: ^6.0.1
+  connectivity_plus: ^6.0.3
 
   #Base
   cupertino_icons: ^1.0.5
-  google_fonts: ^5.1.0
+  google_fonts: ^6.2.1
   font_awesome_flutter: ^10.5.0
-  nb_utils: ^6.0.2
-  intl: ^0.18.0
+  nb_utils: ^7.0.3
+
 
   #Validation
   validators: ^3.0.0
 
   # FIREBASE PACKAGES
-  firebase_core: ^2.15.1
-  firebase_messaging: ^14.6.6
+  firebase_core: ^3.0.0
+  firebase_messaging: ^15.0.0
 
   # Common
   share: ^2.0.4
@@ -69,9 +69,9 @@ dependencies:
 
   # IMAGES
   image_picker: ^1.0.2
-  file_picker: ^5.3.3
-  photo_view: ^0.14.0
-  flutter_svg: ^1.1.6
+  file_picker: ^8.0.4
+  photo_view: ^0.15.0
+  flutter_svg: ^2.0.10+1
 
   # STATE MANAGEMENT
   mobx: ^2.2.0
@@ -80,9 +80,9 @@ dependencies:
 
   # MAP
   google_maps_flutter: ^2.4.0
-  geolocator: ^10.0.0
-  geocoding: ^2.1.0
-  location: ^5.0.3
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0
+  location: ^6.0.2
 
   # UI
   animations: ^2.0.7
@@ -94,14 +94,19 @@ dependencies:
   dotted_line: ^3.2.2
 
   # NOTIFICATION
-  flutter_local_notifications: ^15.1.1
+  flutter_local_notifications: ^17.1.2
 
+  intl: ^0.18.1
+  local_auth_ios: any
 
-
-  flutter_localizations:
-    sdk: flutter
-
+  local_auth_android: any
+  vector_math: any
+  flutter_background_service_android: any
+  google_maps_flutter_android: any
+  google_maps_flutter_platform_interface: any
 dev_dependencies:
+
+
   flutter_test:
     sdk: flutter
 
@@ -109,7 +114,7 @@ dev_dependencies:
   build_runner: ^2.4.6
 
 
-  flutter_lints: ^2.0.2
+  flutter_lints: ^4.0.0
 
 flutter_icons:
   android: true
@@ -120,6 +125,8 @@ flutter_icons:
 flutter:
 
   uses-material-design: true
+
+
 
   assets:
     - images/
