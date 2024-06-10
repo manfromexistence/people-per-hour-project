@@ -131,13 +131,6 @@ void main() async {
     mapsImplementation.initializeWithRenderer(AndroidMapRenderer.latest);
   }
 
-  //Configure firebase using firebase cli or comment this if block for testing
-  if (!isWeb) {
-    await Firebase.initializeApp(
-        options: DefaultFirebaseOptions.currentPlatform);
-    FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
-    await setupFlutterNotifications();
-  }
 
   await initializeService();
   await BackgroundLocationTrackerManager.initialize(
